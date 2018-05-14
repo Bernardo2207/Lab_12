@@ -146,7 +146,7 @@ public class BSTMap<K, V> implements Map<K, V> {
 		for(Entry<K,V> x:tree) {
 			keySet.add(x.getValue());
 		}
-		return null;    // for the moment...
+		return keySet;    // for the moment...
 	}
 
 	@Override
